@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "observer",
+  "version": "${version}",
+  "name": "Observer",
+  "description": "Client-only loaded-world search, heuristic landmarks and tracking.",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.observer.client.ObserverClient"] },
+  "mixins": ["observer.mixins.json"],
+  "license": "MIT",
+  "depends": { "fabricloader": ">=0.19.3", "minecraft": "26.2", "java": ">=25", "fabric-api": ">=0.154.0" }
+}

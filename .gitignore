@@ -1,0 +1,21 @@
+# Gradle caches and generated build output
+**/.gradle/
+**/build/
+**/out/
+
+# Local game runs and logs
+**/run/
+**/logs/
+*.log
+*.jfr
+hs_err_pid*.log
+
+# IDE and operating-system files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Keep the release JAR and Gradle Wrapper JAR tracked.

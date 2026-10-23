@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "dev.observer.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "MinecraftMixin",
+    "ClientLevelMixin",
+    "ClientChunkCacheMixin",
+    "ChatComponentMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
